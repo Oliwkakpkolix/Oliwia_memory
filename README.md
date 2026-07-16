@@ -243,7 +243,7 @@ The complete project is documented in a **75-page engineering thesis**, covering
 
 📄 **Full documentation:**
 
-[Memory – Engineering Thesis (PDF)](docs/Memory_Engineering_Thesis.pdf)
+[Memory Engineering Thesis (PDF)](Memory_Engineering_Thesis.pdf.pdf)
 
 ---
 
