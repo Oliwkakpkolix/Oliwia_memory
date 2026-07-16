@@ -9,7 +9,7 @@ Instead of offering predefined difficulty levels, the application analyses playe
 The project was independently designed and developed from concept to a fully functional Android application in less than one month using AI-assisted development.
 
 <p align="center">
-  <img src="screenshots/home.png" width="850" alt="Memory Application">
+  <img src="screenshots/home.jpg" width="850" alt="Memory Application">
 </p>
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
@@ -100,7 +100,7 @@ Additionally, the system recognises different playing strategies, preventing rep
 Difficulty is automatically adjusted according to the player's current performance.
 
 <p align="center">
-<img src="screenshots/adaptive_mode.png" width="320" alt="Adaptive Mode">
+<img src="screenshots/adaptive_mode.jpg" width="320" alt="Adaptive Mode">
 </p>
 
 ### Timed Mode
@@ -108,7 +108,7 @@ Difficulty is automatically adjusted according to the player's current performan
 Thirty-two predefined challenges completed under time pressure.
 
 <p align="center">
-<img src="screenshots/timed_mode.png" width="320" alt="Timed Mode">
+<img src="screenshots/timed_mode.jpg" width="320" alt="Timed Mode">
 </p>
 
 ### Challenge Mode
@@ -116,7 +116,7 @@ Thirty-two predefined challenges completed under time pressure.
 Players can compare results across different board configurations and improve their performance.
 
 <p align="center">
-<img src="screenshots/challenge_mode.png" width="320" alt="Challenge Mode">
+<img src="screenshots/challenge_mode.jpg" width="320" alt="Challenge Mode">
 </p>
 
 ---
@@ -138,13 +138,13 @@ The application records:
 Users can generate professional PDF reports summarizing their cognitive training history.
 
 <p align="center">
-<img src="screenshots/report.png" width="700" alt="PDF Report">
+<img src="screenshots/report.jpg" width="700" alt="PDF Report">
 </p>
 
 The ranking system allows users to compare previous sessions, filter results and analyse long-term performance.
 
 <p align="center">
-<img src="screenshots/ranking.png" width="650" alt="Ranking">
+<img src="screenshots/ranking.jpg" width="650" alt="Ranking">
 </p>
 
 ---
@@ -161,8 +161,8 @@ Players can unlock:
 - achievements.
 
 <p align="center">
-<img src="screenshots/shop.png" width="320" alt="Shop">
-<img src="screenshots/achievements.png" width="320" alt="Achievements">
+<img src="screenshots/shop.jpg" width="320" alt="Shop">
+<img src="screenshots/achievements.jpg" width="320" alt="Achievements">
 </p>
 
 ---
