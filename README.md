@@ -9,7 +9,7 @@ Instead of offering predefined difficulty levels, the application analyses playe
 The project was independently designed and developed from concept to a fully functional Android application in less than one month using AI-assisted development.
 
 <p align="center">
-  <img src="screenshots/home.jpg" width="850" alt="Memory Application">
+  <img src="screenshots/home.jpg" width="320" alt="Memory Application">
 </p>
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
@@ -138,13 +138,13 @@ The application records:
 Users can generate professional PDF reports summarizing their cognitive training history.
 
 <p align="center">
-<img src="screenshots/report.jpg" width="700" alt="PDF Report">
+<img src="screenshots/report.jpg" width="320" alt="PDF Report">
 </p>
 
 The ranking system allows users to compare previous sessions, filter results and analyse long-term performance.
 
 <p align="center">
-<img src="screenshots/ranking.jpg" width="650" alt="Ranking">
+<img src="screenshots/ranking.jpg" width="320" alt="Ranking">
 </p>
 
 ---
