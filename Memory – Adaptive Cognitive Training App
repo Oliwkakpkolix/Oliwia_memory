@@ -1,162 +1,203 @@
-# Memory – Adaptive Cognitive Training App
+# Memory
 
-## About the project
+## Intelligent Adaptive Cognitive Training Platform
 
-**Memory** is an Android application supporting the development of memory and concentration through adaptive cognitive training.
+An Android application that transforms a classic memory game into an adaptive cognitive training platform using behavioural analysis, adaptive difficulty adjustment and gamification.
+<p align="center">
+<img src="screenshots/home.png" width="900">
+</p>
+**Engineering Thesis | Android | Kotlin | Jetpack Compose | AI-assisted Development**
 
-Unlike traditional memory games with fixed difficulty levels, the application analyzes the user’s gameplay, performance, completion time and types of mistakes. Based on this data, it dynamically decides whether the next level should be more difficult, easier or repeated.
+---
 
-The application was designed and developed from concept to a working product in less than one month using an **AI-assisted development / vibe coding workflow**.
+## Project Overview
 
-## What makes this project different?
+Memory is an Android application designed to provide personalized cognitive training rather than a traditional memory game.
 
-### Adaptive difficulty system
+Unlike classic memory games that rely on fixed difficulty levels, Memory continuously analyses player behaviour, identifies cognitive patterns and dynamically adjusts future gameplay based on the user's performance.
 
-The application does not use one rigid progression path for every player.
+The project was independently designed, implemented and documented in less than one month using an AI-assisted development workflow.
 
-The system analyzes:
+---
 
-- game completion time,
-- effectiveness,
-- number and type of mistakes,
-- current board configuration,
-- previous gameplay results,
-- the player’s individual way of discovering cards.
+## Key Highlights
 
-Based on these factors, it adjusts the difficulty of future sessions.
+| Feature | Description |
+|---------|-------------|
+| Adaptive Difficulty | Dynamic adjustment based on player behaviour |
+| Behaviour Analysis | Analysis of gameplay patterns rather than final score only |
+| Three Game Modes | Adaptive, Timed and Challenge |
+| Achievement System | 24 unlockable achievements |
+| Ranking System | Session history, filtering and statistics |
+| PDF Reports | Automatically generated training reports |
+| Personalization | Unlockable themes and interface customization |
+| Development Time | Complete Android application developed in less than one month |
 
-### Detailed player behaviour analysis
+---
 
-The system classifies four types of mistakes:
+## Project Motivation
 
-- cognitive mistakes,
-- associative mistakes,
-- spatial and location mistakes,
-- attention mistakes.
+Most memory games offer static levels where every player follows exactly the same progression regardless of their individual abilities.
 
-The application also recognizes different playing strategies, so repeated card discovery is not automatically counted as an error. This reduces false results and makes the analysis more accurate.
+The objective of Memory was to create a system capable of analysing user behaviour and automatically adapting future training sessions, providing a more personalized and effective cognitive training experience.
 
-## Main features
+---
 
-- adaptive cognitive training,
-- dynamic difficulty adjustment,
-- three independent game modes,
-- detailed mistake classification,
-- player behaviour analysis,
-- rankings and session history,
-- filtering and sorting of results,
-- automatically generated PDF reports,
-- points and reward system,
-- 24 achievements,
-- in-app shop,
-- unlockable card themes,
-- interface personalization,
-- light and dark mode,
-- animated interface elements,
-- local user profile without registration.
+## Adaptive Cognitive Engine
 
-## Game modes
+The application continuously analyses:
 
-### Adaptive training
+- completion time,
+- player effectiveness,
+- board configuration,
+- previous sessions,
+- gameplay strategy,
+- mistake frequency,
+- player progress.
 
-The main mode automatically adjusts the board configuration and difficulty to the player’s current abilities.
+Based on these factors, the application dynamically adjusts the difficulty level instead of relying on predefined progression.
 
-### Timed level mode
+---
 
-A set of 32 predefined challenges completed under time pressure. Progress unlocks new visual elements and card themes.
+## Player Behaviour Analysis
 
-### Challenge mode
+Instead of treating every incorrect move equally, the system classifies different categories of mistakes:
 
-The user can select available board configurations and compare the best and worst results for each variation.
+- Cognitive mistakes
+- Associative mistakes
+- Spatial mistakes
+- Attention mistakes
 
-## Gamification
+The application also recognises different playing strategies, reducing false classifications and improving the quality of behavioural analysis.
 
-The application includes:
+---
 
-- points awarded after completed games,
-- achievements for specific milestones,
-- unlockable visual themes,
-- an internal shop,
-- card, menu and splash-screen personalization,
-- rewards designed to increase long-term engagement.
+## Main Features
 
-## Reports and rankings
+- Adaptive cognitive training
+- Dynamic difficulty adjustment
+- Three independent game modes
+- Behaviour analysis
+- Cognitive mistake classification
+- Achievement system
+- Ranking system
+- Session history
+- Statistics and filtering
+- Automatic PDF report generation
+- In-app shop
+- Unlockable themes
+- Interface personalization
+- Dark and Light mode
+- Animated user interface
+- Local player profile
 
-The application stores detailed information about completed sessions, including:
+---
 
-- level,
-- board size,
-- game mode,
+## Game Modes
+
+### Adaptive Mode
+
+Automatically adjusts the difficulty level according to the player's current performance.
+
+### Timed Mode
+
+Thirty-two predefined challenges completed under time pressure.
+
+### Challenge Mode
+
+Allows users to compare their results across different board configurations.
+
+---
+
+## Reports
+
+The application stores detailed statistics for every completed session, including:
+
+- score,
 - completion time,
 - effectiveness,
-- score,
-- number and type of mistakes.
+- board size,
+- game mode,
+- mistake categories,
+- player progress.
 
-The ranking can be filtered by date, card configuration, completion time, score and number of mistakes.
+Users can generate PDF reports summarizing their training history and cognitive performance.
 
-Users can also generate PDF reports containing:
-
-- training history,
-- detailed results,
-- charts,
-- mistake analysis,
-- progress information,
-- cognitive training recommendations.
+---
 
 ## Technologies
+
+### Mobile Development
 
 - Kotlin
 - Android Studio
 - Jetpack Compose
 - Material Design
 - Android SDK
+
+### Application Features
+
+- Adaptive algorithms
 - Local data storage
 - PDF generation
-- Git and GitHub
-- AI-assisted development / vibe coding
+- Ranking system
 
-## My role
+### Development
 
-The project was designed and implemented independently.
+- Git
+- GitHub
+- AI-assisted development (vibe coding)
 
-My responsibilities included:
+---
 
-- product concept,
-- problem analysis,
-- application architecture,
-- UX/UI design,
-- Android development,
-- adaptive algorithm design,
-- gameplay logic,
-- gamification system,
-- reporting and ranking system,
-- testing,
-- iterative development with AI tools.
+## Responsibilities
 
-## Project scale
+The project was fully designed and implemented independently.
 
-- complete Android product developed in less than one month,
-- 3 game modes,
-- 32 timed challenges,
-- 24 achievements,
-- adaptive difficulty algorithm,
-- 4 categories of player mistakes,
-- ranking and filtering system,
-- automatic PDF reports,
-- in-app shop and personalization,
-- project documented in a 75-page engineering thesis.
+Responsibilities included:
+
+- Product concept
+- UX/UI design
+- Android development
+- Application architecture
+- Adaptive algorithm design
+- Gameplay logic
+- Behaviour analysis
+- Gamification system
+- Ranking system
+- PDF reporting
+- Testing
+- AI-assisted iterative development
+
+---
+
+## Project Scale
+
+- Complete Android application
+- Developed independently in less than one month
+- Adaptive cognitive engine
+- Three gameplay modes
+- Thirty-two timed challenges
+- Twenty-four achievements
+- Dynamic difficulty adjustment
+- Four categories of player mistakes
+- Ranking and statistics system
+- Automatic PDF reports
+- Interface personalization
+- Documented in a 75-page engineering thesis
+
+---
 
 ## Screenshots
 
 Screenshots will be added here.
 
-## Repository
+---
 
-The source code is available in this repository.
-
-## Author
+## Contact
 
 **Oliwia Wojdalska**
 
-- GitHub: [Oliwkakpkolix](https://github.com/Oliwkakpkolix)
-- Email: owojdalska@gmail.com
+GitHub: https://github.com/Oliwkakpkolix
+
+Email: owojdalska@gmail.com
