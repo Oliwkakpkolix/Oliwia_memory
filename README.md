@@ -229,6 +229,24 @@ Potential future extensions include:
 
 ---
 
+## Documentation
+
+The complete project is documented in a **75-page engineering thesis**, covering:
+
+- application architecture,
+- adaptive algorithm design,
+- UX/UI decisions,
+- behavioural analysis,
+- implementation details,
+- testing process,
+- future development.
+
+📄 **Full documentation:**
+
+[Memory – Engineering Thesis (PDF)](docs/Memory_Engineering_Thesis.pdf)
+
+---
+
 ## Contact
 
 **Oliwia Wojdalska**
