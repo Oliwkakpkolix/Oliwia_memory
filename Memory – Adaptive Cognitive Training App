@@ -2,10 +2,14 @@
 
 ## Intelligent Adaptive Cognitive Training Platform
 
-An Android application that transforms a classic memory game into an adaptive cognitive training platform using behavioural analysis, adaptive difficulty adjustment and gamification.
+Memory is an Android application that transforms a traditional memory game into an intelligent cognitive training platform.
+
+Instead of offering predefined difficulty levels, the application analyses player behaviour, evaluates different categories of mistakes and dynamically adjusts future gameplay. The goal is to provide a personalized cognitive training experience rather than a static game.
+
+The project was independently designed and developed from concept to a fully functional Android application in less than one month using AI-assisted development.
 
 <p align="center">
-  <img src="screenshots/home.png" width="850" alt="Memory Home Screen">
+  <img src="screenshots/home.png" width="850" alt="Memory Application">
 </p>
 
 ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
@@ -15,107 +19,77 @@ An Android application that transforms a classic memory game into an adaptive co
 
 ---
 
-## Project Overview
-
-Memory is an Android application designed to provide personalized cognitive training instead of a traditional memory game.
-
-Rather than relying on predefined difficulty levels, the application continuously analyses player behaviour, identifies cognitive patterns and dynamically adapts future gameplay to the user's performance.
-
-The project was independently designed, implemented and documented in less than one month using an AI-assisted development workflow.
+## Project at a Glance
 
 | | |
 |---|---|
-| **Development Time** | Less than 1 month |
-| **Role** | Sole Developer & Product Designer |
-| **Scope** | Concept → UX/UI → Development → Testing |
+| Development Time | Less than one month |
+| Role | Sole Developer & Product Designer |
+| Platform | Android |
+| Technologies | Kotlin, Jetpack Compose |
+| Development Approach | AI-assisted Development |
+| Documentation | 75-page Engineering Thesis |
 
 ---
 
-## Key Highlights
+## The Idea
 
-| Feature | Description |
-|---------|-------------|
-| Adaptive Difficulty | Dynamic adjustment based on player behaviour |
-| Behaviour Analysis | Analysis of gameplay patterns instead of final score only |
-| Three Game Modes | Adaptive, Timed and Challenge |
-| Achievement System | 24 unlockable achievements |
-| Ranking System | Session history, filtering and statistics |
-| PDF Reports | Automatically generated training reports |
-| Personalization | Unlockable themes and interface customization |
+Traditional memory games provide exactly the same experience to every player.
 
----
+Memory was designed to solve this problem by introducing adaptive cognitive training.
 
-## Project Motivation
-
-Traditional memory games provide the same experience for every player by using fixed levels and predefined progression.
-
-The goal of Memory was to create a system capable of analysing user behaviour and automatically adapting future training sessions, resulting in a more personalized and engaging cognitive training experience.
-
----
-
-## Design Decisions
-
-### Why adaptive difficulty?
-
-Traditional memory games become repetitive because every player follows the same progression.
-
-Memory dynamically adjusts the difficulty level according to the user's performance, making every training session unique.
-
-### Why behaviour analysis?
-
-Instead of evaluating only the final score, the application analyses how the player solves the game, allowing more accurate adaptation of future sessions.
-
-### Why gamification?
-
-Achievements, rewards, unlockable themes and progression mechanics increase long-term engagement and encourage regular cognitive training.
+Instead of simply checking whether a player completes a level, the application analyses how the player performs, identifies behavioural patterns and continuously adjusts future gameplay to maintain an appropriate level of challenge.
 
 ---
 
 ## Adaptive Cognitive Engine
 
-The adaptive algorithm continuously analyses multiple variables during gameplay:
+The adaptive algorithm evaluates multiple variables during every game session, including:
 
 - completion time,
 - player effectiveness,
+- gameplay strategy,
 - board configuration,
 - previous sessions,
-- gameplay strategy,
-- mistake frequency,
-- player progress.
+- player progress,
+- mistake frequency.
 
-Based on these factors, the application dynamically adjusts the next training session instead of relying on predefined progression.
-
-```text
-Player
-   │
-   ▼
-Gameplay
-   │
-   ▼
-Behaviour Analysis
-   │
-   ▼
-Adaptive Algorithm
-   │
-   ▼
-Difficulty Adjustment
-   │
-   ▼
-Next Training Session
-```
+Based on these observations, the application automatically increases or decreases the difficulty level, creating a personalized training experience instead of following predefined levels.
 
 ---
 
-## Player Behaviour Analysis
+## Behaviour Analysis
 
-Instead of treating every incorrect move equally, the application classifies different categories of mistakes:
+Memory does not treat every incorrect move as the same mistake.
+
+The application distinguishes between:
 
 - Cognitive mistakes
 - Associative mistakes
 - Spatial mistakes
 - Attention mistakes
 
-The application also recognises different playing strategies, reducing false classifications and improving the quality of behavioural analysis.
+Additionally, the system recognises different playing strategies, preventing repeated card discovery from being incorrectly classified as an error. This results in more accurate player analysis and better adaptive decisions.
+
+---
+
+## Core Features
+
+- Adaptive difficulty adjustment
+- Behaviour analysis
+- Cognitive mistake classification
+- Three independent game modes
+- Achievement system
+- Ranking system
+- Session history
+- Statistics and filtering
+- Automatic PDF reports
+- In-app shop
+- Unlockable themes
+- Interface personalization
+- Dark and Light mode
+- Animated user interface
+- Local player profile
 
 ---
 
@@ -123,39 +97,73 @@ The application also recognises different playing strategies, reducing false cla
 
 ### Adaptive Mode
 
-Automatically adjusts the difficulty level according to the player's current performance.
+Difficulty is automatically adjusted according to the player's current performance.
 
-![Adaptive Mode](screenshots/adaptive_mode.png)
+<p align="center">
+<img src="screenshots/adaptive_mode.png" width="320" alt="Adaptive Mode">
+</p>
 
 ### Timed Mode
 
 Thirty-two predefined challenges completed under time pressure.
 
-![Timed Mode](screenshots/timed_mode.png)
+<p align="center">
+<img src="screenshots/timed_mode.png" width="320" alt="Timed Mode">
+</p>
 
 ### Challenge Mode
 
-Allows users to compare their results across different board configurations.
+Players can compare results across different board configurations and improve their performance.
 
-![Challenge Mode](screenshots/challenge_mode.png)
+<p align="center">
+<img src="screenshots/challenge_mode.png" width="320" alt="Challenge Mode">
+</p>
 
 ---
 
-## Reports
+## Reports & Statistics
 
-The application stores detailed statistics for every completed session, including:
+Every completed session is stored and analysed.
+
+The application records:
 
 - score,
 - completion time,
 - effectiveness,
-- board size,
-- game mode,
-- mistake categories,
-- player progress.
+- selected game mode,
+- board configuration,
+- player progress,
+- mistake categories.
 
-Users can generate PDF reports summarizing training history, cognitive performance and progress over time.
+Users can generate professional PDF reports summarizing their cognitive training history.
 
-![PDF Report](screenshots/report.png)
+<p align="center">
+<img src="screenshots/report.png" width="700" alt="PDF Report">
+</p>
+
+The ranking system allows users to compare previous sessions, filter results and analyse long-term performance.
+
+<p align="center">
+<img src="screenshots/ranking.png" width="650" alt="Ranking">
+</p>
+
+---
+
+## Personalization
+
+To increase long-term engagement, the application includes an integrated reward system with unlockable visual content.
+
+Players can unlock:
+
+- card themes,
+- interface themes,
+- profile customization,
+- achievements.
+
+<p align="center">
+<img src="screenshots/shop.png" width="320" alt="Shop">
+<img src="screenshots/achievements.png" width="320" alt="Achievements">
+</p>
 
 ---
 
@@ -163,16 +171,16 @@ Users can generate PDF reports summarizing training history, cognitive performan
 
 | Category | Technologies |
 |-----------|--------------|
-| Mobile | Kotlin, Android Studio, Jetpack Compose |
+| Mobile Development | Kotlin, Android Studio, Jetpack Compose |
 | UI | Material Design |
 | Features | Adaptive Algorithm, Local Storage, PDF Generation, Ranking System |
-| Development | Git, GitHub, AI-assisted Development |
+| Tools | Git, GitHub, AI-assisted Development |
 
 ---
 
 ## My Contribution
 
-This project was fully designed and implemented independently.
+This project was designed and implemented entirely by me.
 
 Responsibilities included:
 
@@ -185,7 +193,7 @@ Responsibilities included:
 - Behaviour analysis
 - Gamification system
 - Ranking system
-- PDF reporting
+- PDF generation
 - Testing
 - AI-assisted iterative development
 
@@ -209,37 +217,9 @@ Responsibilities included:
 
 ---
 
-## Screenshots
-
-### Home Screen
-
-![Home](screenshots/home.png)
-
-### Gameplay
-
-![Gameplay](screenshots/gameplay.png)
-
-### Rankings
-
-![Rankings](screenshots/ranking.png)
-
-### Achievements
-
-![Achievements](screenshots/achievements.png)
-
-### Shop
-
-![Shop](screenshots/shop.png)
-
-### Reports
-
-![Reports](screenshots/report.png)
-
----
-
 ## Future Improvements
 
-Planned features include:
+Potential future extensions include:
 
 - Cloud synchronization
 - AI-powered cognitive recommendations
