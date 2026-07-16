@@ -159,4 +159,4 @@ The source code is available in this repository.
 **Oliwia Wojdalska**
 
 - GitHub: [Oliwkakpkolix](https://github.com/Oliwkakpkolix)
-- Email: oliwia.wojdalska@onet.pl
+- Email: owojdalska@gmail.com
